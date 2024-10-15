@@ -1,0 +1,167 @@
+[14-Oct-2024 14:53:37 UTC] PHP Warning:  Undefined variable $host in /home/onukromx/public_html/alumnidata/initdb.php on line 10
+[14-Oct-2024 14:58:50 UTC] PHP Warning:  Undefined variable $host in /home/onukromx/public_html/alumnidata/initdb.php on line 10
+[14-Oct-2024 15:33:41 UTC] PHP Warning:  Undefined array key "university" in /home/onukromx/public_html/alumnidata/submit.php on line 20
+[14-Oct-2024 15:33:41 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/submit.php on line 20
+[14-Oct-2024 15:33:41 UTC] PHP Warning:  Undefined array key "job_title" in /home/onukromx/public_html/alumnidata/submit.php on line 22
+[14-Oct-2024 15:33:41 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/submit.php on line 22
+[14-Oct-2024 15:33:41 UTC] PHP Warning:  Undefined array key "facebook_link" in /home/onukromx/public_html/alumnidata/submit.php on line 25
+[14-Oct-2024 15:33:41 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/submit.php on line 25
+[14-Oct-2024 15:33:41 UTC] PHP Warning:  Undefined array key "instagram_link" in /home/onukromx/public_html/alumnidata/submit.php on line 26
+[14-Oct-2024 15:33:41 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/submit.php on line 26
+[14-Oct-2024 15:33:41 UTC] PHP Warning:  Undefined array key "linkedin_link" in /home/onukromx/public_html/alumnidata/submit.php on line 27
+[14-Oct-2024 15:33:41 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/submit.php on line 27
+[14-Oct-2024 15:33:41 UTC] PHP Warning:  Undefined array key "github_link" in /home/onukromx/public_html/alumnidata/submit.php on line 28
+[14-Oct-2024 15:33:41 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/submit.php on line 28
+[14-Oct-2024 15:33:41 UTC] PHP Warning:  Undefined array key "twitter_link" in /home/onukromx/public_html/alumnidata/submit.php on line 29
+[14-Oct-2024 15:33:41 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/submit.php on line 29
+[14-Oct-2024 15:46:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/onukromx/public_html/alumnidata/submit.php:18
+Stack trace:
+#0 /home/onukromx/public_html/alumnidata/submit.php(18): mysqli_stmt->bind_param('ssssssissssssss', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 {main}
+  thrown in /home/onukromx/public_html/alumnidata/submit.php on line 18
+[14-Oct-2024 15:46:09 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/onukromx/public_html/alumnidata/submit.php:18
+Stack trace:
+#0 /home/onukromx/public_html/alumnidata/submit.php(18): mysqli_stmt->bind_param('ssssssissssssss', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 {main}
+  thrown in /home/onukromx/public_html/alumnidata/submit.php on line 18
+[14-Oct-2024 15:46:20 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/onukromx/public_html/alumnidata/submit.php:18
+Stack trace:
+#0 /home/onukromx/public_html/alumnidata/submit.php(18): mysqli_stmt->bind_param('ssssssissssssss', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 {main}
+  thrown in /home/onukromx/public_html/alumnidata/submit.php on line 18
+[14-Oct-2024 15:48:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/onukromx/public_html/alumnidata/submit.php:18
+Stack trace:
+#0 /home/onukromx/public_html/alumnidata/submit.php(18): mysqli_stmt->bind_param('ssssssissssssss', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 {main}
+  thrown in /home/onukromx/public_html/alumnidata/submit.php on line 18
+[14-Oct-2024 15:48:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/onukromx/public_html/alumnidata/submit.php:18
+Stack trace:
+#0 /home/onukromx/public_html/alumnidata/submit.php(18): mysqli_stmt->bind_param('ssssssissssssss', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 {main}
+  thrown in /home/onukromx/public_html/alumnidata/submit.php on line 18
+[14-Oct-2024 15:50:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'onukromx_aldb.your_table_name' doesn't exist in /home/onukromx/public_html/alumnidata/submit.php:17
+Stack trace:
+#0 /home/onukromx/public_html/alumnidata/submit.php(17): mysqli->prepare('INSERT INTO you...')
+#1 {main}
+  thrown in /home/onukromx/public_html/alumnidata/submit.php on line 17
+[14-Oct-2024 20:41:38 UTC] PHP Warning:  Undefined array key "name" in /home/onukromx/public_html/alumnidata/submit.php on line 17
+[14-Oct-2024 20:41:38 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/submit.php on line 17
+[14-Oct-2024 20:41:56 UTC] PHP Warning:  Undefined array key "name" in /home/onukromx/public_html/alumnidata/submit.php on line 17
+[14-Oct-2024 20:41:56 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/submit.php on line 17
+[14-Oct-2024 20:44:24 UTC] PHP Warning:  Undefined array key "name" in /home/onukromx/public_html/alumnidata/submit.php on line 17
+[14-Oct-2024 20:44:24 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/submit.php on line 17
+[14-Oct-2024 20:45:41 UTC] PHP Warning:  Undefined array key "name" in /home/onukromx/public_html/alumnidata/submit.php on line 17
+[14-Oct-2024 20:45:41 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/submit.php on line 17
+[15-Oct-2024 06:38:24 UTC] PHP Warning:  Undefined array key "name" in /home/onukromx/public_html/alumnidata/submit.php on line 21
+[15-Oct-2024 06:38:24 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/submit.php on line 21
+[15-Oct-2024 06:39:26 UTC] PHP Warning:  Undefined array key "name" in /home/onukromx/public_html/alumnidata/submit.php on line 21
+[15-Oct-2024 06:39:26 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/submit.php on line 21
+[15-Oct-2024 06:39:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') 
+VALUES ('', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N...' at line 1 in /home/onukromx/public_html/alumnidata/submit.php:67
+Stack trace:
+#0 /home/onukromx/public_html/alumnidata/submit.php(67): mysqli->query('INSERT INTO alu...')
+#1 {main}
+  thrown in /home/onukromx/public_html/alumnidata/submit.php on line 67
+[15-Oct-2024 06:40:41 UTC] PHP Warning:  Undefined array key "name" in /home/onukromx/public_html/alumnidata/submit.php on line 17
+[15-Oct-2024 06:40:41 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/submit.php on line 17
+[15-Oct-2024 16:24:32 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:24:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:24:32 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:24:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:24:32 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:24:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:24:32 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:24:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:24:32 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:24:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:24:32 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:24:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:25:39 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:25:39 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:25:39 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:25:39 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:25:39 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:25:39 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:25:39 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:25:39 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:25:39 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:25:39 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:25:39 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:25:39 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:17 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:17 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:17 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:17 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:17 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:17 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:17 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:17 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:17 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:17 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:17 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:17 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:17 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:17 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:17 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 93
+[15-Oct-2024 16:26:21 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:21 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:21 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:21 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:21 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:21 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:21 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:21 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:21 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:21 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:21 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:21 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:21 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:21 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:21 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 93
+[15-Oct-2024 16:26:27 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:27 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:27 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:27 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:27 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:27 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:27 UTC] PHP Warning:  Undefined array key "email" in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 91
+[15-Oct-2024 16:26:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/approval.php on line 93
+[15-Oct-2024 17:59:27 UTC] PHP Warning:  Undefined array key "name" in /home/onukromx/public_html/alumnidata/submit.php on line 17
+[15-Oct-2024 17:59:27 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/submit.php on line 17
+[15-Oct-2024 17:59:27 UTC] PHP Warning:  Undefined array key "profile_image" in /home/onukromx/public_html/alumnidata/submit.php on line 58
+[15-Oct-2024 17:59:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/onukromx/public_html/alumnidata/submit.php on line 33
+[15-Oct-2024 17:59:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/onukromx/public_html/alumnidata/submit.php on line 34
+[15-Oct-2024 17:59:27 UTC] PHP Warning:  Undefined array key "resume" in /home/onukromx/public_html/alumnidata/submit.php on line 61
+[15-Oct-2024 17:59:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/onukromx/public_html/alumnidata/submit.php on line 33
+[15-Oct-2024 17:59:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/onukromx/public_html/alumnidata/submit.php on line 34
+[15-Oct-2024 18:01:53 UTC] PHP Warning:  Undefined array key "name" in /home/onukromx/public_html/alumnidata/submit.php on line 17
+[15-Oct-2024 18:01:53 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/submit.php on line 17
+[15-Oct-2024 18:01:53 UTC] PHP Warning:  Undefined array key "profile_image" in /home/onukromx/public_html/alumnidata/submit.php on line 67
+[15-Oct-2024 18:01:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/onukromx/public_html/alumnidata/submit.php on line 34
+[15-Oct-2024 18:01:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/onukromx/public_html/alumnidata/submit.php on line 38
+[15-Oct-2024 18:01:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/onukromx/public_html/alumnidata/submit.php on line 39
+[15-Oct-2024 18:01:53 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in /home/onukromx/public_html/alumnidata/submit.php on line 39
+[15-Oct-2024 18:01:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/onukromx/public_html/alumnidata/submit.php on line 39
+[15-Oct-2024 18:01:53 UTC] PHP Warning:  Undefined array key "resume" in /home/onukromx/public_html/alumnidata/submit.php on line 70
+[15-Oct-2024 18:01:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/onukromx/public_html/alumnidata/submit.php on line 34
+[15-Oct-2024 18:01:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/onukromx/public_html/alumnidata/submit.php on line 38
+[15-Oct-2024 18:01:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/onukromx/public_html/alumnidata/submit.php on line 39
+[15-Oct-2024 18:01:53 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in /home/onukromx/public_html/alumnidata/submit.php on line 39
+[15-Oct-2024 18:01:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/onukromx/public_html/alumnidata/submit.php on line 39
+[15-Oct-2024 18:02:33 UTC] PHP Warning:  Undefined array key "name" in /home/onukromx/public_html/alumnidata/submit.php on line 17
+[15-Oct-2024 18:02:33 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/submit.php on line 17
+[15-Oct-2024 18:31:53 UTC] PHP Warning:  Undefined array key "name" in /home/onukromx/public_html/alumnidata/submit.php on line 17
+[15-Oct-2024 18:31:53 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/submit.php on line 17
+[15-Oct-2024 18:32:56 UTC] PHP Warning:  Undefined array key "name" in /home/onukromx/public_html/alumnidata/submit.php on line 17
+[15-Oct-2024 18:32:56 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/submit.php on line 17
+[15-Oct-2024 18:33:16 UTC] PHP Warning:  Undefined array key "name" in /home/onukromx/public_html/alumnidata/submit.php on line 17
+[15-Oct-2024 18:33:16 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/submit.php on line 17
+[15-Oct-2024 18:34:24 UTC] PHP Warning:  Undefined array key "name" in /home/onukromx/public_html/alumnidata/submit.php on line 17
+[15-Oct-2024 18:34:24 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/onukromx/public_html/alumnidata/submit.php on line 17

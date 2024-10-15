@@ -1,0 +1,14 @@
+# Enable the rewrite engine
+RewriteEngine On
+
+# Check if the requested filename exists
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Check if the requested directory exists
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite rules for .html files
+RewriteRule ^([a-zA-Z0-9_-]+)$ $1.html [L]
+
+# Rewrite rules for .php files
+RewriteRule ^([a-zA-Z0-9_-]+)$ $1.php [L]
